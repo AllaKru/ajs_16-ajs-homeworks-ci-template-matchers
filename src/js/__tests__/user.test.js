@@ -14,6 +14,5 @@ test('the order must be sorted from highest to lowest', () => {
     { name: 'мечник', health: 10 },
   ]);
 
-
   expect(received).toEqual(expected);
 });
